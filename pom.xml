@@ -59,7 +59,15 @@
                  <version>2.6.2</version>
             <scope>test</scope>
         </dependency>
-             
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-test -->
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-test</artifactId>
+             <version>1.4.0.RELEASE</version>
+             <scope>test</scope>
+         </dependency>
+
+  
         <dependency>
            <groupId>junit</groupId>     <!-- NOT org.junit here -->
            <artifactId>junit-dep</artifactId>
